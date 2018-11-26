@@ -8,6 +8,6 @@ function lowerCaseDrivers(array) {
 
 function attributesToPhrase(array) {
   return array.map(function(driver){
-    
+
   });
 }
