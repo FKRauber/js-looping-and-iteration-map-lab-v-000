@@ -1,12 +1,13 @@
 // Code your solution in this file.
 
-function lowerCaseDrivers(drivers) {
-  return drivers.map(function(driver){
+function lowerCaseDrivers(array) {
+  return array.map(function(driver){
     return driver.toLowerCase();
   });
 }
 
-function attributesToPhrase() {
-
-
+function attributesToPhrase(array) {
+  return array.map(function(driver){
+    
+  });
 }
