@@ -16,9 +16,6 @@ function nameToAttributes(array) {
 
 function attributesToPhrase(array) {
   return array.map(function(driver){
-    const driverFirstName = driver.split(' ')[0];
-    const driverLastName = driver.split(' ')[1];
-    const driverHometown = driver.split(' ')[2];
-    return { firstName: driverFirstName, lastName: driverLastName, hometown: driverHometown };
+    return '${driver.name} is from ${driver.hometown}';
   });
 }
